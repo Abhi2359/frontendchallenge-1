@@ -9,17 +9,12 @@ function Layout() {
   const [expMonth, setExpMonth] = useState("");
   const [expYear, setExpYear] = useState("");
   const [cvc, setCvc] = useState("");
-  
-
 
   const handleInputChange = (e) => {
     setCardNumber(e.target.value);
-    
   };
   const handleCardHolderName = (e) => {
     setCardHolderName(e.target.value);
-   
-   
   };
   const handleExpMonth = (e) => {
     setExpMonth(e.target.value);
@@ -36,17 +31,15 @@ function Layout() {
         <div class="partitions">
           <div class="partition1">
             <div class="card1">
-
-            <Card1
-              cardNumber={cardNumber}
-              cardHolderName={cardHolderName}
-              expMonth={expMonth}
-              expYear={expYear}
-             
-            />
+              <Card1
+                cardNumber={cardNumber}
+                cardHolderName={cardHolderName}
+                expMonth={expMonth}
+                expYear={expYear}
+              />
             </div>
             <div class="card2">
-              <Card2 cvc={cvc}/>
+              <Card2 cvc={cvc} />
             </div>
           </div>
 
@@ -104,8 +97,8 @@ function Layout() {
                     className="number"
                   />
                   <input
-                  value={cvc}
-                  onChange={handleCvc }
+                    value={cvc}
+                    onChange={handleCvc}
                     type="text"
                     id="cvc"
                     name="number"
