@@ -1,0 +1,16 @@
+.button{
+    width: 300px;
+    margin-left: 10px;
+   
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+ }
+
+ .button button{
+    height: 40px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+ }

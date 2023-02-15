@@ -1,0 +1,13 @@
+.card1 {
+  
+  background: rgb(16, 16, 16);
+background: linear-gradient(121deg, rgba(93,225,83,1) 3%, rgba(83,224,225,1) 50%);
+ height: 250px;
+}
+
+.cardinput{
+  width: 100%;
+  margin: 20px;
+
+}
+

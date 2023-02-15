@@ -1,0 +1,15 @@
+.Complete{
+    height: 100vh;
+    width: 50%;
+    background-color: aquamarine;
+    
+}
+
+.icon{
+   margin: 30px;
+   margin-left: 200px;
+}
+
+.para{
+    text-align: center;
+}
